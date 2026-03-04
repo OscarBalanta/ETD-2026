@@ -1,10 +1,11 @@
 public class Moto {
-   
+
     private int modelo;
     private String marca;
     private String color;
     private double cilindraje;
     private double precio;
+
     public Moto(int modelo, String marca, String color, double cilindraje, double precio) {
         this.modelo = modelo;
         this.marca = marca;
@@ -12,30 +13,39 @@ public class Moto {
         this.cilindraje = cilindraje;
         this.precio = precio;
     }
+
     public int getModelo() {
         return modelo;
     }
+
     public void setModelo(int modelo) {
         this.modelo = modelo;
     }
+
     public String getMarca() {
         return marca;
     }
+
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
         this.color = color;
     }
+
     public double getCilindraje() {
         return cilindraje;
     }
+
     public void setCilindraje(double cilindraje) {
         this.cilindraje = cilindraje;
     }
+
     public double getPrecio() {
         return precio;
     }
@@ -47,12 +57,11 @@ public class Moto {
     public String realizarmatenimiento() {
         return " mantenimiento Realizado  a la moto " + marca + " modelo " + modelo;
     }
-     
+
     @Override
     public String toString() {
-        return "moto{" + "modelo=" + modelo + ", marca=" + marca + ", color=" + color + ", cilindraje=" + cilindraje + ", precio=" + precio + '}';
+        return "moto{" + "modelo=" + modelo + ", marca=" + marca + ", color=" + color + ", cilindraje=" + cilindraje
+                + ", precio=" + precio + '}';
     }
-    
-    
 
 }
