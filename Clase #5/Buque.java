@@ -39,7 +39,7 @@ public class Buque {
 
     @Override
     public String toString() {
-        return "Buque{" + "nombre=" + nombre + ", codigo=" + codigo + ", origen=" + origen + '}';
+        return "Buque{ " + "nombre=" + nombre + ", codigo=" + codigo + ", origen=" + origen + '}';
     }
 
 

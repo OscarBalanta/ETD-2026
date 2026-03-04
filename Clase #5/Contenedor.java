@@ -38,7 +38,7 @@ public class Contenedor {
      
     @Override
     public String toString() {
-        return "Contenedor{" + "codigo=" + codigo + ", peso=" + peso + ", origen=" + origen + '}';
+        return "Contenedor{ " + "codigo=" + codigo + ", peso=" + peso + ", origen=" + origen + '}';
     }   
 
     
